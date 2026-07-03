@@ -1,0 +1,13 @@
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+
+export default defineConfig({
+  plugins: [react()],
+  base: "/mahjong_solitier/",
+  resolve: {
+    alias: {
+      assert: "assert/",
+      process: "process/browser",
+    },
+  },
+});
