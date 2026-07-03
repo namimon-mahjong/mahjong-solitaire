@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/mahjong_solitier/",
+  base: "/mahjong-solitaire/",
   resolve: {
     alias: {
       assert: "assert/",
